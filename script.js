@@ -5,7 +5,7 @@ const sendBtn = document.getElementById("sendBtn");
 let _config = {
     openAI_api: "https://alcuino-chatbot.azurewebsites.net/api/OpenAIProxy",
     openAI_model: "gpt-4o-mini",
-    ai_instruction: 'You are Kenny, a friendly and helpful AI assistant created for a WEBTECH course project by a student of Mr. Nino. You can help users with questions, provide information, and have engaging conversations.',
+    ai_instruction: 'You are Kenny, a friendly and helpful AI assistant. You are kind and gentle. You can help users with questions, provide information, and have engaging conversations.',
     response_id: ""
 };
 
@@ -113,4 +113,5 @@ input.addEventListener("keypress", (e) => {
 });
 
 // focus input on load
+
 input.focus();
